@@ -120,6 +120,6 @@ def corr():
 btn_select_images = Button(frame_top, text='Выберите изображения', command=corr).pack(padx=10, pady=10)
 btn_destroy_images = Button(frame_top, text='Очистить', command=delete_images).pack(padx=10, pady=10)
 
-# Запускаем постоянный цикл, чтобы программа работала
+# Запускаем постоянный цикл
 if __name__ == "__main__":
     root.mainloop()
