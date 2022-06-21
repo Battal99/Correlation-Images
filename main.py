@@ -1,8 +1,6 @@
 # Импортируем все из библиотеки TKinter
 import math
 import multiprocessing
-import threading
-
 import numpy as np
 from numpy import array
 from tkinter import filedialog, Button
